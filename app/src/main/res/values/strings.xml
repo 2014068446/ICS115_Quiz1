@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz1</string>
+    <string-array name="codename">
+        <item>Nougat</item>
+        <item>Marshmallow</item>
+        <item>Lollipop</item>
+    </string-array>
+    <string-array name="version">
+        <item>7.1.2</item>
+        <item>6.0.1</item>
+        <item>5.1.2</item>
+    </string-array>
+    <string-array name="API">
+        <item>25</item>
+        <item>23</item>
+        <item>22</item>
+    </string-array>
+    <string-array name="date">
+        <item>Released August 21, 2017</item>
+        <item>Released August 22, 2016</item>
+        <item>Released October 5, 2015</item>
+    </string-array>
+</resources>

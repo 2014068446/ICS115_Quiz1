@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cucharo.cucharoquiz1.Secondary.AndroidPagesActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvCodename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Codename" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvCodename"
+        android:layout_below="@+id/tvCodename"
+        android:layout_marginTop="11dp"
+        android:text="Version" />
+
+    <TextView
+        android:id="@+id/tvAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvVersion"
+        android:layout_below="@+id/tvVersion"
+        android:layout_marginTop="14dp"
+        android:text="API" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvAPI"
+        android:layout_below="@+id/tvAPI"
+        android:layout_marginTop="11dp"
+        android:text="Date" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Home"
+        android:layout_below="@+id/tvDate"
+        android:layout_toStartOf="@+id/ivLogo"
+        android:layout_marginEnd="30dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_alignBaseline="@+id/btnHome"
+        android:layout_alignBottom="@+id/btnHome"
+        android:layout_alignEnd="@+id/tvAPI" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_alignBaseline="@+id/btn1"
+        android:layout_alignBottom="@+id/btn1"
+        android:layout_alignEnd="@+id/ivLogo" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn2"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/btn2"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_alignBaseline="@+id/btn3"
+        android:layout_alignBottom="@+id/btn3"
+        android:layout_toEndOf="@+id/btn3"
+        android:layout_marginStart="18dp" />
+
+</RelativeLayout>
